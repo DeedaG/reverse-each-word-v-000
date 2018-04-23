@@ -1,7 +1,8 @@
 
 
 def reverse_each_word(sentence)
-  sentence.split.each do |word|
+  sentence.split
+  sentence.each do |word|
     "#{word}".reverse
     print word
   end
