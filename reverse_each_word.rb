@@ -5,4 +5,3 @@ def reverse_each_word(sentence1 = "Hello there, and how are you?")
     return word.reverse
   end
 end
-
